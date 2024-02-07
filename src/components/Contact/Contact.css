@@ -1,0 +1,59 @@
+.contact {
+  height: 300px;
+}
+.contact-area {
+  display: flex;
+  max-width: 1200px;
+  justify-content: center;
+  border-top: 1px solid #a94b47;
+  margin: 0 auto;
+}
+.mail-area {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+.mail-area a {
+  font-family: "Big Shoulders Display";
+  text-decoration: none;
+  font-size: 2rem;
+  color: #a94b47;
+}
+
+.content-right {
+  display: flex;
+  width: 50%;
+}
+
+.content-li {
+  display: flex;
+}
+
+.svg-ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content-li a {
+  font-family: "Big Shoulders Display";
+  text-decoration: none;
+  font-size: 2rem;
+  color: var(--text);
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.content-right li {
+  height: 50%;
+  /* width: 400px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  margin: 5px;
+}
