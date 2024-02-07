@@ -47,11 +47,11 @@
   padding: 20px;
   border-radius: 10px;
   max-width: 1000px;
-  min-height: 600px;
+  max-height: 750px;
   width: 100%;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   text-align: center;
-  /* ここにモーダルコンテンツのスタイルを追加してください */
+  overflow-y: auto;
 }
 
 .modal-content h2 {
