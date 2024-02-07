@@ -13,8 +13,8 @@ const Projects = () => {
       roles: "Art direction, Web design,Front end",
       details:
         "This project is an end-to-end team collaboration, built with React for the front end and Python for the back end. The purpose of this app is to provide users with a list of movies they can browse, save to their list, review, rate, and receive recommendations based on their watched movies.",
-      img: "../../assets/Filmfinder.png",
-      modalImg: "../../assets/film-modal.png",
+      img: "../../../src/assets/Filmfinder.png",
+      modalImg: "../../../src/assets/film-modal.png",
       link: "https://github.com/EricaIna/Reddy_43_Client.git",
     },
     {
@@ -24,8 +24,8 @@ const Projects = () => {
       roles: "Web design, Front-end",
       details:
         "The History Maze Game is an educational and engaging experience tailored for secondary school students. It takes players on an exciting journey through a maze filled with historical checkpoints, challenging them with history-related questions. The game, crafted with HTML, CSS, JavaScript, ExpressJS, and NodeJS, offers an immersive and interactive learning experience.",
-      img: "../../assets/TimeLabyrinth.png",
-      modalImg: "../../assets/maze-modal.png",
+      img: "../../../src/assets/TimeLabyrinth.png",
+      modalImg: "../../../src/assets/maze-modal.png",
       link: "https://github.com/EricaIna/History-Maze-Game.git",
     },
     {
@@ -34,8 +34,8 @@ const Projects = () => {
       technologies: "HTML CSS Javascript",
       details:
         "My first responsive , bilingual website, created to practice HTML, CSS, and JavaScript without using frameworks, was inspired by my experiences working in A&E in the UK. The concept is to offer medical interpreting services for Japanese individuals in the UK who do not speak English.",
-      img: "../../assets/e-medical.png",
-      modalImg: "../../assets/medical-modal.png",
+      img: "../../../src/assets/e-medical.png",
+      modalImg: "../../../src/assets/medical-modal.png",
       link: "https://github.com/EricaIna/med-translate",
       live: "https://e-medical-service.netlify.app/",
     },

@@ -107,10 +107,7 @@ const Card = ({ item }) => {
                       <motion.button onClick={() => setIsOpen(false)}>
                         <CloseButton />
                       </motion.button>
-                      <img
-                        src={`../src/assets/${item.modalImg}`}
-                        className="modalImg"
-                      />
+                      <img src={`${item.modalImg}`} className="modalImg" />
                     </div>
                     <h2>{item.title}</h2>
                     <h5 className="technology">
