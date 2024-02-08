@@ -5,7 +5,12 @@ import { Diamond } from "../Diamond";
 
 const Contact = () => {
   return (
-    <div className="Contact">
+    <motion.div
+      className="Contact"
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ duration: 1.0, delay: 1.0 }}
+    >
       <h1>Contact</h1>
       <ul className="contact-area">
         <li className="mail-area">
@@ -55,7 +60,7 @@ const Contact = () => {
           </div>
         </div>
       </ul>
-    </div>
+    </motion.div>
   );
 };
 

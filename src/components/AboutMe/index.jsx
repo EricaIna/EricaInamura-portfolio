@@ -1,9 +1,15 @@
 import React from "react";
 import "./AboutMe.css";
+import { motion } from "framer-motion";
 
 const AboutMe = () => {
   return (
-    <div className="AboutMe">
+    <motion.div
+      className="AboutMe"
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ duration: 1.0, delay: 1.0 }}
+    >
       <h1>ABOUT ME</h1>
       <p className="aboutme-p">
         My passion for technology started when I was working as a nurse,
@@ -16,7 +22,7 @@ const AboutMe = () => {
         self- improvement and passion for gaining new knowledge have become
         essential elements in my personal and professional development.
       </p>
-    </div>
+    </motion.div>
   );
 };
 
