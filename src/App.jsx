@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
+import { Routes, Route, useLocation } from "react-router-dom";
 import * as Pages from "./pages";
 import "./App.css";
 import { Header } from "./components";
@@ -13,12 +13,12 @@ function App() {
   return (
     <>
       <AnimatePresence>
-        <Routes location={location} key={location.pathname}>
+        {/* <Routes location={location} key={location.pathname}> */}
+        <Routes>
           <Route path="/" element={<Header />}>
             <Route path="/" element={<Pages.HomePage />}></Route>
             <Route path="/projects">
               <Route index element={<Pages.Projects />}></Route>
-              {/* <Route path="/shows/:id" element={<Pages.ShowPage />}></Route> */}
             </Route>
             <Route path="/aboutme" element={<AboutMe />}></Route>
             <Route path="/skills" element={<Skills />}></Route>

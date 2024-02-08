@@ -91,7 +91,7 @@ form > input {
   position: absolute;
   right: 0;
   top: 0;
-  background-image: url(../public/pink.png);
+  background-image: url(../pink.png);
 }
 
 .active {
