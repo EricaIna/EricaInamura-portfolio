@@ -23,7 +23,15 @@ const Contact = () => {
         </li>
         <div className="content-right">
           <div className="content-li">
-            <motion.div>
+            <motion.div
+              animate={{
+                rotateY: 180, // 180度回転
+              }}
+              transition={{
+                repeat: Infinity, // 無限に繰り返し
+                duration: 2, // アニメーションの1サイクルの時間
+              }}
+            >
               <Diamond />
             </motion.div>
 
