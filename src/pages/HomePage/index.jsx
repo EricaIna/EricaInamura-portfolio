@@ -1,11 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "./HomePage.css";
 
 import { motion } from "framer-motion";
 import Projects from "../Projects";
 import Skills from "../../components/Skills";
 import AboutMe from "../../components/AboutMe";
 import Contact from "../../components/Contact";
+import AnimatedText from "../../components/AnimatedText";
+import { Diamond, Right, Left } from "../../components/Diamond";
 
 const HomePage = () => {
   return (
@@ -17,7 +20,13 @@ const HomePage = () => {
         transition={{ duration: 1 }}
       >
         <div className="homepage-title">
-          <h1> Hi My name is Erica</h1>
+          <div className="headline">
+            <Left />
+            <h1 className="homepage-h1">
+              <AnimatedText text="Hi My name is Erica" />
+            </h1>
+            <Right />
+          </div>
           <h5 className="sub">Frontend developer / UI designer</h5>
         </div>
         <div className="homepage-bc"></div>

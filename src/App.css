@@ -17,7 +17,7 @@ body {
 
 h1 {
   text-align: center;
-  font-size: 5rem;
+  font-size: 6rem;
   line-height: 1.1;
   z-index: 99;
   /* font-family: "Caveat", cursive; */
@@ -68,30 +68,6 @@ form {
 form > input {
   font-size: 2rem;
   margin-right: 1rem;
-}
-
-.homepage {
-  width: 100%;
-  height: 100%;
-  position: relative;
-}
-.homepage-title {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 80%;
-  height: 100vh;
-  z-index: 3;
-  margin: 0 auto;
-}
-.homepage-bc {
-  width: 50%;
-  height: 100vh;
-  position: absolute;
-  right: 0;
-  top: 0;
-  background-image: url(../pink.png);
 }
 
 .active {

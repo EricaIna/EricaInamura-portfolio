@@ -110,6 +110,7 @@ const Card = ({ item }) => {
                       <img src={`${item.modalImg}`} className="modalImg" />
                     </div>
                     <h2>{item.title}</h2>
+
                     <h5 className="technology">
                       {item.technologies.split(",").map((technology, index) => (
                         <span key={index}>
@@ -124,6 +125,7 @@ const Card = ({ item }) => {
                         </span>
                       ))}
                     </h5>
+
                     <div className="modal-bottom">
                       <div className="description">
                         <h5>Description</h5>

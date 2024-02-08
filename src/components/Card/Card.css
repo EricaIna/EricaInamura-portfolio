@@ -84,8 +84,8 @@
 }
 
 .modalImg {
-  height: 450px;
-  width: 800px;
+  height: 550px;
+  width: 900px;
 }
 
 .modal-bottom {
@@ -130,3 +130,5 @@
   display: block;
   padding: 5px;
 }
+
+/* scroll */

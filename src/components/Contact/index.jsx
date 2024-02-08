@@ -1,6 +1,7 @@
 import React from "react";
 import "./Contact.css";
 import { addScaleCorrector, motion } from "framer-motion";
+import { Diamond } from "../Diamond";
 
 const Contact = () => {
   return (
@@ -17,24 +18,8 @@ const Contact = () => {
         </li>
         <div className="content-right">
           <div className="content-li">
-            <motion.div
-              style={{ width: "100px", height: "100px", position: "relative" }}
-              animate={{ rotateY: [0, 360] }}
-              transition={{ duration: 2, repeat: Infinity, ease: "linear" }}
-            >
-              <svg
-                width="100%"
-                height="100%"
-                xmlns="http://www.w3.org/2000/svg"
-                style={{
-                  position: "absolute",
-                  left: 0,
-                  top: 0,
-                  transformOrigin: "center",
-                }}
-              >
-                <polygon points="45,20 65,50 45,80 25,50" fill="#a94b47" />
-              </svg>
+            <motion.div>
+              <Diamond />
             </motion.div>
 
             <ul className="svg-ul">
@@ -48,25 +33,11 @@ const Contact = () => {
                 </motion.a>
               </li>
             </ul>
-            <motion.div
-              style={{ width: "100px", height: "100px", position: "relative" }}
-              animate={{ rotateY: [0, 360] }}
-              transition={{ duration: 2, repeat: Infinity, ease: "linear" }}
-            >
-              <svg
-                width="100%"
-                height="100%"
-                xmlns="http://www.w3.org/2000/svg"
-                style={{
-                  position: "absolute",
-                  left: 0,
-                  top: 0,
-                  transformOrigin: "center",
-                }}
-              >
-                <polygon points="45,20 65,50 45,80 25,50" fill="#a94b47" />
-              </svg>
+
+            <motion.div>
+              <Diamond />
             </motion.div>
+
             <ul className="svg-ul">
               <li>
                 <motion.a
@@ -78,24 +49,8 @@ const Contact = () => {
                 </motion.a>
               </li>
             </ul>
-            <motion.div
-              style={{ width: "100px", height: "100px", position: "relative" }}
-              animate={{ rotateY: [0, 360] }}
-              transition={{ duration: 2, repeat: Infinity, ease: "linear" }}
-            >
-              <svg
-                width="100%"
-                height="100%"
-                xmlns="http://www.w3.org/2000/svg"
-                style={{
-                  position: "absolute",
-                  left: 0,
-                  top: 0,
-                  transformOrigin: "center",
-                }}
-              >
-                <polygon points="45,20 65,50 45,80 25,50" fill="#a94b47" />
-              </svg>
+            <motion.div>
+              <Diamond />
             </motion.div>
           </div>
         </div>
