@@ -25,11 +25,11 @@ const Contact = () => {
           <div className="content-li">
             <motion.div
               animate={{
-                rotateY: 180, // 180度回転
+                rotateY: 180,
               }}
               transition={{
-                repeat: Infinity, // 無限に繰り返し
-                duration: 2, // アニメーションの1サイクルの時間
+                repeat: Infinity,
+                duration: 2,
               }}
             >
               <Diamond />
@@ -47,7 +47,15 @@ const Contact = () => {
               </li>
             </ul>
 
-            <motion.div>
+            <motion.div
+              animate={{
+                rotateY: 180,
+              }}
+              transition={{
+                repeat: Infinity,
+                duration: 2,
+              }}
+            >
               <Diamond />
             </motion.div>
 
@@ -62,7 +70,15 @@ const Contact = () => {
                 </motion.a>
               </li>
             </ul>
-            <motion.div>
+            <motion.div
+              animate={{
+                rotateY: 180,
+              }}
+              transition={{
+                repeat: Infinity,
+                duration: 2,
+              }}
+            >
               <Diamond />
             </motion.div>
           </div>
