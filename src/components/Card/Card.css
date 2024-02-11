@@ -131,4 +131,8 @@
   padding: 5px;
 }
 
-/* scroll */
+/* mobile*/
+.mobile-image {
+  width: 400px;
+  height: 250px;
+}
