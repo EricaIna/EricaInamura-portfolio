@@ -20,7 +20,6 @@
   top: 10px;
   transition: all 0.3s ease;
   z-index: 999;
-  padding: 30px;
 }
 .menu-icon:hover {
   filter: brightness(0.8);
