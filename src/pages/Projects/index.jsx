@@ -17,6 +17,7 @@ const Projects = () => {
       modalImg: "../../../film-modal.png",
       modalImgMobile: "../../../mobile-film.png",
       link: "https://github.com/EricaIna/Reddy_43_Client.git",
+      live: "https://post-presentation.d1ca0wfujj3ehg.amplifyapp.com/",
     },
     {
       id: 2,
