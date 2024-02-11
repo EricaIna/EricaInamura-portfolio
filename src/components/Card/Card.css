@@ -45,7 +45,7 @@
 
 .modal-content {
   background-color: var(--background);
-  padding: 20px;
+
   border-radius: 10px;
   max-width: 1000px;
   max-height: 750px;
@@ -92,7 +92,7 @@
 .modal-bottom {
   display: flex;
   width: 100%;
-  padding: 20px;
+  padding: 20px 30px;
 }
 .description {
   width: 50%;
@@ -134,7 +134,7 @@
 
 /* mobile*/
 .mobile-image {
-  max-width: 400px;
+  max-width: 380px;
   height: 250px;
   padding: 0;
 }
