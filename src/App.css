@@ -3,6 +3,8 @@
   --text: #333;
   --accent: #a94b47;
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 body {
   min-width: 320px;
@@ -10,7 +12,7 @@ body {
   margin: 0 auto;
   color: var(--text);
   background-color: var(--background);
-
+  overflow-x: hidden;
   line-height: 1.6rem;
   font-size: 20px;
 }
@@ -30,19 +32,16 @@ h2 {
   font-family: "Big Shoulders Display", sans-serif;
   margin: 20px;
 }
-.sub {
-  font-family: "Caveat", cursive;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 2rem;
-  z-index: 90;
-  padding-top: 16px;
-}
 
 p,
 a {
   font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+  margin-top: 1rem;
+  position: absolute;
+  z-index: 99;
 }
 
 nav > a {
@@ -50,14 +49,14 @@ nav > a {
   color: var(--text);
   text-decoration: none;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
+  padding-top: 1rem;
 }
 
 header,
 footer {
-  padding: 1rem;
   display: flex;
-  justify-content: center;
+  justify-content: right;
 }
 
 form {

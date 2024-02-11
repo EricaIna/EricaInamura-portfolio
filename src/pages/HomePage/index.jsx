@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./HomePage.css";
 
-import { motion } from "framer-motion";
+import { motion, useAnimation } from "framer-motion";
 import Projects from "../Projects";
 import Skills from "../../components/Skills";
 import AboutMe from "../../components/AboutMe";
@@ -31,10 +31,14 @@ const HomePage = () => {
         </div>
         <div className="homepage-bc"></div>
       </motion.div>
-      <Projects />
-      <Skills />
-      <AboutMe />
-      <Contact />
+      <motion.div initial={{ opacity: 1 }} transition={{ duration: 1 }}>
+        <>
+          <Projects />
+          <Skills />
+          <AboutMe />
+          <Contact />
+        </>
+      </motion.div>
     </>
   );
 };
