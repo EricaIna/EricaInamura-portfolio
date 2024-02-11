@@ -25,8 +25,8 @@
   margin-top: 10px;
 }
 .cardImg {
-  width: 400px;
-
+  max-width: 400px;
+  text-align: center;
   object-fit: contain;
 }
 .modal-overlay {
@@ -133,6 +133,7 @@
 
 /* mobile*/
 .mobile-image {
-  width: 400px;
+  max-width: 400px;
   height: 250px;
+  padding: 0;
 }

@@ -13,10 +13,10 @@ export const HamburgerIcon = () => (
       animate={{ rotate: 180 }}
       transition={{ duration: 0.5 }}
     >
-      <circle cx="35" cy="35" r="34" stroke="#333" strokeWidth="2" fill="" />
-      <rect x="20" y="30" width="40" height="3" fill="#a94b47" />
+      {/* <circle cx="35" cy="35" r="34" stroke="#333" strokeWidth="2" fill="" /> */}
+      <rect x="10" y="20" width="30" height="3" fill="#a94b47" />
 
-      <rect x="10" y="40" width="40" height="3" fill="#a94b47" />
+      <rect x="0" y="30" width="40" height="3" fill="#a94b47" />
     </motion.svg>
   </div>
 );
