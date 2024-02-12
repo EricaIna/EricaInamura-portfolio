@@ -1,9 +1,11 @@
 /* Skills.css */
 .Skills {
-  height: 300px;
+  height: 600px;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  opacity: 1;
+  align-items: center;
 }
 
 .skill-container {

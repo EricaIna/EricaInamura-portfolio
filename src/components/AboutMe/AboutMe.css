@@ -1,9 +1,15 @@
 .AboutMe {
   max-width: 1000px;
   margin: 0 auto;
+  opacity: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
 }
 
 .aboutme-p {
-  line-height: 2.5;
+  line-height: 1.8;
   padding: 30px;
 }
