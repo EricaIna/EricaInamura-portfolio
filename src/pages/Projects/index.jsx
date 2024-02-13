@@ -3,6 +3,7 @@ import "./Projects.css";
 import Card from "../../components/Card";
 
 import { motion, AnimatePresence } from "framer-motion";
+import ScrollReveal from "../../components/ScrollReveal";
 
 const Projects = () => {
   const items = [
@@ -51,12 +52,14 @@ const Projects = () => {
       animate={{ opacity: 1 }}
       transition={{ duration: 1.5, delay: 1.0 }}
     >
-      <h1>Projects</h1>
-      <motion.div className="card-wrapper">
-        {items.map((item, index) => (
-          <Card key={index} item={item} />
-        ))}
-      </motion.div>
+      <ScrollReveal move="bottom">
+        <h1>Projects</h1>
+        <motion.div className="card-wrapper">
+          {items.map((item, index) => (
+            <Card key={index} item={item} />
+          ))}
+        </motion.div>
+      </ScrollReveal>
     </motion.div>
   );
 };

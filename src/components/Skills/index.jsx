@@ -1,6 +1,7 @@
 import React from "react";
 import "./Skills.css";
 import { motion } from "framer-motion";
+import ScrollReveal from "../ScrollReveal";
 
 const container = {
   hidden: { opacity: 0 },
@@ -33,28 +34,30 @@ const Skills = () => {
   ];
 
   return (
-    <motion.div
-      className="Skills"
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
-      transition={{ duration: 1.5, delay: 1.0 }}
-    >
-      <h1>SKILLS</h1>
-
+    <ScrollReveal move="bottom">
       <motion.div
-        className="skill-container"
-        variants={container}
-        initial="hidden"
-        animate="show"
+        className="Skills"
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 1.5, delay: 1.0 }}
       >
-        {skillIcons.map((icon, index) => (
-          <motion.div className="skill-item" key={index} variants={item}>
-            {/* <img src={icon.src} alt={icon.alt} /> */}
-            <h5>{icon.title}</h5>
-          </motion.div>
-        ))}
+        <h1>SKILLS</h1>
+
+        <motion.div
+          className="skill-container"
+          variants={container}
+          initial="hidden"
+          animate="show"
+        >
+          {skillIcons.map((icon, index) => (
+            <motion.div className="skill-item" key={index} variants={item}>
+              {/* <img src={icon.src} alt={icon.alt} /> */}
+              <h5>{icon.title}</h5>
+            </motion.div>
+          ))}
+        </motion.div>
       </motion.div>
-    </motion.div>
+    </ScrollReveal>
   );
 };
 
