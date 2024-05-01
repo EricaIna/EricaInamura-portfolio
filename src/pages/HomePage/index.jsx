@@ -7,6 +7,7 @@ import Projects from "../Projects";
 import Skills from "../../components/Skills";
 import AboutMe from "../../components/AboutMe";
 import Contact from "../../components/Contact";
+import Footer from "../../components/Footer";
 import AnimatedText from "../../components/AnimatedText";
 import { Diamond, Right, Left } from "../../components/Diamond";
 
@@ -37,6 +38,7 @@ const HomePage = () => {
           <Skills />
           <AboutMe />
           <Contact />
+          <Footer />
         </>
       </motion.div>
     </>

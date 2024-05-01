@@ -19,7 +19,7 @@ const AboutMe = () => {
           of learning technology in improving both the workflow for healthcare
           professionals and the overall experience for patients. Driven by a
           passion to learn and improve, I'm committed to lifelong learning for
-          personal and professional growth.Additionally, I find joy in design,
+          personal and professional growth. Additionally,I find joy in design,
           often drawing inspiration from museum visits or traveling around to
           fuel my creative endeavors.
         </p>
